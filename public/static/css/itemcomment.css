@@ -1,0 +1,49 @@
+.discuss-wrapper {
+  display: flex;
+  margin-bottom: 0.66667rem;
+}
+.discuss-wrapper .author-subnail {
+  width: 0.58667rem;
+  height: 0.58667rem;
+  margin-right: 0.26667rem;
+  line-height: 0.58667rem;
+}
+.discuss-wrapper .author-subnail img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.discuss-wrapper .discuss-contents {
+  flex: 1;
+  text-align: left;
+}
+.discuss-wrapper .discuss-contents .author {
+  margin-bottom: 0.24rem;
+  font-size: 90%;
+  color: #9b9b9b;
+}
+.discuss-wrapper .discuss-contents .author .author-name {
+  margin-right: 1em;
+}
+.discuss-wrapper .discuss-contents .author-content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.discuss-wrapper .discuss-contents .subnail-wrapper {
+  overflow: hidden;
+}
+.discuss-wrapper .discuss-contents .subnail-wrapper .item {
+  float: left;
+  display: block;
+  width: 1.76rem;
+  height: 1.76rem;
+  padding-top: 0.33333rem;
+  padding-right: 0.33333rem;
+  line-height: 1.76rem;
+}
+.discuss-wrapper .discuss-contents .subnail-wrapper .item img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=itemcomment.css.map */

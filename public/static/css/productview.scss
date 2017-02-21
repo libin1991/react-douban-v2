@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@import "mixins";
+
+.product-item {
+  position: relative;
+  height: rem(450);
+  width: rem(350);
+
+  margin: rem(10);
+  padding:{
+    top: rem(345);
+    left: rem(5);
+    right: rem(5);
+    bottom: rem(5);
+  }
+
+  font-size: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: rem(1) rem(1) rem(5) rem(2) #f8f8f8;
+
+  overflow: hidden;
+
+  //缩略图
+  .product-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: block;
+    width: 100%;
+
+    line-height: 0;
+
+    img {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      min-height: rem(345);
+      vertical-align: baseline;
+    }
+  }
+
+  .product-info {
+    width: 100%;
+    height: 1.5em;
+    overflow: hidden;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+
+    a {
+      color: #c9c9c9;
+      font-size: 90%;
+      word-wrap: normal;
+      white-space: nowrap;
+    }
+  }
+
+  .price-panel {
+   text-align: left;
+
+    .price {
+      font-size: 100%;
+      font-weight: 700;
+      color: #fc0000;
+    }
+
+    .market-price {
+      //margin-left: 1em;
+      font-size: 90%;
+      font-weight: normal;
+      color: #c8c8c8;
+    }
+  }
+
+}
+[data-dpr="1"] {
+  .product-item {
+    font-size: 16px;
+  }
+
+  .shop-wrapper a {
+    font-size: 80%;
+  }
+  .shop-wrapper .shop-intro {
+    font-size: 60%;
+  }
+}
+
+[data-dpr='2'] .product-item {
+  font-size: 28px;
+}
+
+[data-dpr='3'] .product-item {
+  font-size: 32px;
+}
+
+
+
+
+
+
+

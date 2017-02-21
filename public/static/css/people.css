@@ -1,0 +1,46 @@
+.people {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: system,-apple-system,".SFNSDisplay-Regular","Lantinghei SC","PingfangSC","Source Han Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1.2em;
+  color: #9b9b9b;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+
+.people__header {
+  margin-bottom: 0.73333rem;
+  margin-top: 0.73333rem;
+}
+
+.people__login {
+  padding: 0.66667rem 0.4rem;
+  background-color: #fff;
+  border-top: 2px solid #9b9b9b;
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.btn--long {
+  margin-top: 0.53333rem;
+  margin-bottom: 0.53333rem;
+}
+
+.people__footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding-bottom: 0.66667rem;
+}
+.people__footer > p {
+  margin-bottom: 0.53333rem;
+}
+
+.people__footer--search {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=people.css.map */

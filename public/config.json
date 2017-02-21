@@ -1,0 +1,146 @@
+[
+  {
+    "data": {
+      "photos": [
+        {
+          "src": "https://img3.doubanio.com\/img\/files\/file-1485236834-0.jpg",
+          "link": "https:\/\/market.douban.com\/simplemill\/",
+          "title": ""
+        },
+        {
+          "src": "https://img3.doubanio.com\/img\/files\/file-1485236684-0.jpg",
+          "link": "https:\/\/market.douban.com\/jiuart\/",
+          "title": ""
+        },
+        {
+          "src": "https://img3.doubanio.com\/img\/files\/file-1484959563-0.jpg",
+          "link": "https:\/\/market.douban.com\/Floratimesex\/",
+          "title": ""
+        },
+        {
+          "src": "https://img3.doubanio.com\/img\/files\/file-1484959534-0.jpg",
+          "link": "https:\/\/market.douban.com\/wangwai\/",
+          "title": ""
+        }
+      ],
+      "height": 225
+    },
+    "key": "banner"
+  },
+  {
+    "data": {
+      "contents": [
+        {
+          "data": {
+            "skus": [
+              {
+                "product_id": 32249,
+                "shop_url": "https:\/\/market.douban.com\/agstudio\/",
+                "title": "{A&G设计}镀14k金镶钻爱心锁骨链",
+                "url": "https:\/\/market.douban.com\/item\/104220\/",
+                "price": "335.00",
+                "shop_name": "A&G首饰工作室",
+                "market_price": "535.00",
+                "recommend": "",
+                "price_couple": [
+                  "335.00",
+                  "535.00"
+                ],
+                "promote_price": "335.00",
+                "id": 104220,
+                "photo_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p526515.jpg"
+              },
+              {
+                "product_id": 34602,
+                "shop_url": "https:\/\/market.douban.com\/littleondine\/",
+                "title": "小奥汀ipluso*Little Ondine指甲油钢笔限量套装",
+                "url": "https:\/\/market.douban.com\/item\/115268\/",
+                "price": "298.00",
+                "shop_name": "小奥汀水性指彩",
+                "market_price": "298.00",
+                "recommend": "",
+                "price_couple": [
+                  "258.00",
+                  "298.00"
+                ],
+                "promote_price": "258.00",
+                "id": 115268,
+                "photo_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p576941.jpg"
+              },
+              {
+                "product_id": 34595,
+                "shop_url": "https:\/\/market.douban.com\/naileasy\/",
+                "title": "NailEasy情人节限定花束组合装\\2017年2月6号发货",
+                "url": "https:\/\/market.douban.com\/item\/115261\/",
+                "price": "299.00",
+                "shop_name": "NailEasy水性指彩油",
+                "market_price": "299.00",
+                "recommend": "",
+                "price_couple": [
+                  "299.00"
+                ],
+                "promote_price": "299.00",
+                "id": 115261,
+                "photo_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p576902.jpg"
+              },
+              {
+                "product_id": 30440,
+                "shop_url": "https:\/\/market.douban.com\/nightshome\/",
+                "title": "NIGHT'S夜家居 日式时尚圆墩水洗棉麻坐垫50*20CM",
+                "url": "https:\/\/market.douban.com\/item\/96243\/",
+                "price": "199.00",
+                "shop_name": "NIGHT'S夜家居",
+                "market_price": "339.00",
+                "recommend": "",
+                "price_couple": [
+                  "199.00",
+                  "339.00"
+                ],
+                "promote_price": "199.00",
+                "id": 96243,
+                "photo_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/medium\/public\/p487224.jpg"
+              },
+              {
+                "product_id": 24703,
+                "shop_url": "https:\/\/market.douban.com\/sitcoffee\/",
+                "title": "雕刻时光咖啡馆 | 三合一挂耳套餐",
+                "url": "https:\/\/market.douban.com\/item\/75625\/",
+                "price": "89.90",
+                "shop_name": "雕刻时光咖啡",
+                "market_price": "114.00",
+                "recommend": "",
+                "price_couple": [
+                  "89.90",
+                  "114.00"
+                ],
+                "promote_price": "89.90",
+                "id": 75625,
+                "photo_url": "https://img1.doubanio.com\/view\/dianpu_product_item\/medium\/public\/p389019.jpg"
+              },
+              {
+                "product_id": 33340,
+                "shop_url": "https:\/\/market.douban.com\/miniteaset\/",
+                "title": "小巨蛋礼盒版（大红袍&铁观音）茶叶包装",
+                "url": "https:\/\/market.douban.com\/item\/108171\/",
+                "price": "498.00",
+                "shop_name": "小巨蛋市集",
+                "market_price": "996.00",
+                "recommend": "",
+                "price_couple": [
+                  "498.00",
+                  "996.00"
+                ],
+                "promote_price": "498.00",
+                "id": 108171,
+                "photo_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/medium\/public\/p548040.jpg"
+              }
+            ]
+          },
+          "key": "products"
+        }
+      ],
+      "subject": ""
+    },
+    "key": "topic"
+  }
+]

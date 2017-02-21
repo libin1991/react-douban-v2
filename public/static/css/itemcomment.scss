@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import "mixins";
+
+// 声明变量
+$contentColor: #9b9b9b;
+
+//商品评价
+.discuss-wrapper {
+  display: flex;
+  margin-bottom: rem(50);
+
+  // 用户头像
+  .author-subnail {
+    width: rem(44);
+    height: rem(44);
+    margin-right: rem(20);
+    line-height: rem(44);
+
+    img {
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  // 评论的详情
+  .discuss-contents {
+    flex: 1;
+    text-align: left;
+
+    // 评论的作者
+    .author {
+      margin-bottom: rem(18);
+      font-size: 90%;
+      color: $contentColor;
+
+      .author-name {
+        margin-right: 1em;
+      }
+    }
+
+    // 评论内容
+    .author-content {
+      margin: {
+        top: 1em;
+        bottom: 1em;
+      }
+    }
+
+    // 商品图片缩略图列表
+    .subnail-wrapper {
+      overflow: hidden;
+
+      .item {
+        float: left;
+        display: block;
+        width: rem(132);
+        height: rem(132);
+        padding: {
+          top: rem(25);
+          right: rem(25);
+        }
+        line-height: rem(132);
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

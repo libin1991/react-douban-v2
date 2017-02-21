@@ -1,0 +1,74 @@
+@import "mixins";
+
+[data-dpr='1'] .shop-wrapper {
+  font-size: 24px;
+}
+[data-dpr='2'] .shop-wrapper {
+  font-size: 24px;
+}
+[data-dpr='3'] .shop-wrapper {
+  font-size: 28px;
+}
+
+.shop-wrapper {
+  margin-bottom: rem(30);
+  background-color: #fff;
+  overflow: hidden;
+
+  a {
+    color: #4a4a4a;
+    font-size: 100%;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .shop-header {
+    margin: {
+      left: rem(10);
+      right: rem(10);
+      top: rem(25);
+      bottom: rem(30);
+    }
+
+    .shop-thumbnail {
+      margin: {
+        left: rem(5);
+        right: rem(5);
+      }
+      width: rem(40);
+      height: rem(40);
+    }
+
+    .shop-intro {
+      font-size: 80%;
+      color: #9b9b9b;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.shop-lists {
+  position: relative;
+  overflow: hidden;
+
+  height: auto;
+
+<<<<<<< HEAD
+  & > .shop-slider {
+    position: relative;
+    left: 0;
+
+    height: auto;
+    overflow: hidden;
+    transition: left 1s;
+  }
+
+=======
+>>>>>>> fixbug-0.0.2
+  .slider-item {
+    display: inline-block;
+  }
+}

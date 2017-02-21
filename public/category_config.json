@@ -1,0 +1,3254 @@
+{
+  "sort": "-score",
+  "category_id": "1",
+  "category": {
+    "name": "服装",
+    "level": 1,
+    "seq_id": 2,
+    "serial_no": "002",
+    "pid": null,
+    "alias": "fuzhuang",
+    "id": 1
+  },
+  "categories": [
+    {
+      "name": "饮食",
+      "level": 1,
+      "seq_id": 1,
+      "serial_no": "001",
+      "pid": null,
+      "children": [
+        {
+          "name": "酒水",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "001001",
+          "pid": 277,
+          "children": [
+            {
+              "name": "葡萄酒",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001001001",
+              "pid": 278,
+              "alias": "hongjiu",
+              "id": 279
+            },
+            {
+              "name": "白酒",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001001002",
+              "pid": 278,
+              "alias": "baijiu",
+              "id": 280
+            },
+            {
+              "name": "米酒",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001001003",
+              "pid": 278,
+              "alias": "mijiu",
+              "id": 281
+            },
+            {
+              "name": "啤酒",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001001004",
+              "pid": 278,
+              "alias": "pijiu",
+              "id": 282
+            },
+            {
+              "name": "洋酒",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001001005",
+              "pid": 278,
+              "alias": "yangjiu",
+              "id": 283
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "001001008",
+              "pid": 278,
+              "alias": "qita",
+              "id": 286
+            }
+          ],
+          "alias": "jiushui",
+          "id": 278
+        },
+        {
+          "name": "地方特产",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "001002",
+          "pid": 277,
+          "children": [
+            {
+              "name": "新疆",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001002001",
+              "pid": 287,
+              "alias": "xinjiang",
+              "id": 288
+            },
+            {
+              "name": "四川",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001002002",
+              "pid": 287,
+              "alias": "sichuan",
+              "id": 289
+            },
+            {
+              "name": "湖南",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001002003",
+              "pid": 287,
+              "alias": "hunan",
+              "id": 290
+            },
+            {
+              "name": "云南",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001002004",
+              "pid": 287,
+              "alias": "yunnan",
+              "id": 291
+            },
+            {
+              "name": "福建",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001002005",
+              "pid": 287,
+              "alias": "fujian",
+              "id": 292
+            },
+            {
+              "name": "北京",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "001002006",
+              "pid": 287,
+              "alias": "beijing",
+              "id": 293
+            },
+            {
+              "name": "东北",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "001002007",
+              "pid": 287,
+              "alias": "dongbei",
+              "id": 294
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "001002009",
+              "pid": 287,
+              "alias": "qita",
+              "id": 296
+            }
+          ],
+          "alias": "difangtechan",
+          "id": 287
+        },
+        {
+          "name": "饮料冲调",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "001003",
+          "pid": 277,
+          "children": [
+            {
+              "name": "饮料",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001003002",
+              "pid": 297,
+              "alias": "yinliao",
+              "id": 299
+            },
+            {
+              "name": "咖啡豆\/咖啡粉",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001003003",
+              "pid": 297,
+              "alias": "kafeidou\/kafeifen",
+              "id": 300
+            },
+            {
+              "name": "蜂蜜",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001003004",
+              "pid": 297,
+              "alias": "fengmi",
+              "id": 301
+            },
+            {
+              "name": "冲饮谷物",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "001003006",
+              "pid": 297,
+              "alias": "chongyinguwu",
+              "id": 303
+            },
+            {
+              "name": "速溶",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "001003007",
+              "pid": 297,
+              "alias": "surong",
+              "id": 304
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "001003009",
+              "pid": 297,
+              "alias": "qita",
+              "id": 306
+            }
+          ],
+          "alias": "yinliaochongtiao",
+          "id": 297
+        },
+        {
+          "name": "生鲜食品",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "001004",
+          "pid": 277,
+          "children": [
+            {
+              "name": "新鲜水果",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001004001",
+              "pid": 307,
+              "alias": "xinxianshuiguo",
+              "id": 308
+            },
+            {
+              "name": "海鲜水产",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001004002",
+              "pid": 307,
+              "alias": "haixianshuichan",
+              "id": 309
+            },
+            {
+              "name": "生肉禽蛋",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001004003",
+              "pid": 307,
+              "alias": "shengrouqindan",
+              "id": 310
+            },
+            {
+              "name": "产地直供",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001004004",
+              "pid": 307,
+              "alias": "chandizhigong",
+              "id": 311
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001004005",
+              "pid": 307,
+              "alias": "qita",
+              "id": 312
+            }
+          ],
+          "alias": "shengxianshipin",
+          "id": 307
+        },
+        {
+          "name": "蜂蜜\/咖啡\/茶",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "001005",
+          "pid": 277,
+          "children": [
+            {
+              "name": "蜂蜜",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001005001",
+              "pid": 313,
+              "alias": "fengmi",
+              "id": 314
+            },
+            {
+              "name": "咖啡",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001005002",
+              "pid": 313,
+              "alias": "kafei",
+              "id": 315
+            },
+            {
+              "name": "茗茶",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001005003",
+              "pid": 313,
+              "alias": "mingcha",
+              "id": 316
+            }
+          ],
+          "alias": "fengmi\/kafei\/mingcha",
+          "id": 313
+        },
+        {
+          "name": "休闲食品",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "001006",
+          "pid": 277,
+          "children": [
+            {
+              "name": "休闲零食",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001006001",
+              "pid": 317,
+              "alias": "xiuxianlingshi",
+              "id": 318
+            },
+            {
+              "name": "坚果炒货",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001006002",
+              "pid": 317,
+              "alias": "jianguochaohuo",
+              "id": 319
+            },
+            {
+              "name": "饼干蛋糕",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001006003",
+              "pid": 317,
+              "alias": "binggandangao",
+              "id": 320
+            },
+            {
+              "name": "巧克力",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001006004",
+              "pid": 317,
+              "alias": "qiaokeli",
+              "id": 321
+            },
+            {
+              "name": "肉干果脯",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001006005",
+              "pid": 317,
+              "alias": "rouganroupu",
+              "id": 322
+            },
+            {
+              "name": "糖果",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "001006006",
+              "pid": 317,
+              "alias": "tangguo",
+              "id": 323
+            },
+            {
+              "name": "红枣",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "001006007",
+              "pid": 317,
+              "alias": "hongzao",
+              "id": 324
+            },
+            {
+              "name": "牛肉干",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "001006008",
+              "pid": 317,
+              "alias": "niurougan",
+              "id": 325
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "001006009",
+              "pid": 317,
+              "alias": "qita",
+              "id": 326
+            }
+          ],
+          "alias": "xiuxianshipin",
+          "id": 317
+        },
+        {
+          "name": "保健食品",
+          "level": 2,
+          "seq_id": 7,
+          "serial_no": "001007",
+          "pid": 277,
+          "children": [
+            {
+              "name": "调节免疫",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001007001",
+              "pid": 327,
+              "alias": "tiaojiemianyi",
+              "id": 328
+            },
+            {
+              "name": "调节三高",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001007002",
+              "pid": 327,
+              "alias": "tiaojiesangao",
+              "id": 329
+            },
+            {
+              "name": "美容美体",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001007003",
+              "pid": 327,
+              "alias": "meirongmeiti",
+              "id": 330
+            },
+            {
+              "name": "传统滋补",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001007004",
+              "pid": 327,
+              "alias": "chuantongzibu",
+              "id": 331
+            },
+            {
+              "name": "胃肠养护",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "001007006",
+              "pid": 327,
+              "alias": "weichangyanghu",
+              "id": 333
+            },
+            {
+              "name": "改善疲劳、睡眠",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "001007007",
+              "pid": 327,
+              "alias": "gaishanpilao、shuimian",
+              "id": 334
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "001007009",
+              "pid": 327,
+              "alias": "qita",
+              "id": 336
+            }
+          ],
+          "alias": "baojianshipin",
+          "id": 327
+        },
+        {
+          "name": "节庆食品",
+          "level": 2,
+          "seq_id": 8,
+          "serial_no": "001008",
+          "pid": 277,
+          "children": [
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001008003",
+              "pid": 337,
+              "alias": "qita",
+              "id": 340
+            },
+            {
+              "name": "节日礼盒",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001008004",
+              "pid": 337,
+              "alias": "jierilihe",
+              "id": 341
+            }
+          ],
+          "alias": "jieqingshipin",
+          "id": 337
+        },
+        {
+          "name": "粮油调味",
+          "level": 2,
+          "seq_id": 9,
+          "serial_no": "001009",
+          "pid": 277,
+          "children": [
+            {
+              "name": "米面杂粮",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001009001",
+              "pid": 342,
+              "alias": "mimianzaliang",
+              "id": 343
+            },
+            {
+              "name": "食用油",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001009002",
+              "pid": 342,
+              "alias": "shiyongyou",
+              "id": 344
+            },
+            {
+              "name": "干货",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001009003",
+              "pid": 342,
+              "alias": "ganhuo",
+              "id": 345
+            },
+            {
+              "name": "调味品",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001009004",
+              "pid": 342,
+              "alias": "tiaoweipin",
+              "id": 346
+            },
+            {
+              "name": "有机食品",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001009005",
+              "pid": 342,
+              "alias": "youjishipin",
+              "id": 347
+            }
+          ],
+          "alias": "liangyoutiaowei",
+          "id": 342
+        },
+        {
+          "name": "进口食品",
+          "level": 2,
+          "seq_id": 10,
+          "serial_no": "001010",
+          "pid": 277,
+          "children": [
+            {
+              "name": "糕点饼干",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001010003",
+              "pid": 348,
+              "alias": "gaodianbinggan",
+              "id": 351
+            },
+            {
+              "name": "巧克力",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001010004",
+              "pid": 348,
+              "alias": "qiaokeli",
+              "id": 352
+            },
+            {
+              "name": "零食",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "001010005",
+              "pid": 348,
+              "alias": "lingshi",
+              "id": 353
+            },
+            {
+              "name": "冲调饮品",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "001010006",
+              "pid": 348,
+              "alias": "chongtiaoyinpin",
+              "id": 354
+            },
+            {
+              "name": "粮油调味",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "001010007",
+              "pid": 348,
+              "alias": "liangyoutiaowei",
+              "id": 355
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "001010009",
+              "pid": 348,
+              "alias": "qita",
+              "id": 357
+            }
+          ],
+          "alias": "jinkoushipin",
+          "id": 348
+        },
+        {
+          "name": "有机食品",
+          "level": 2,
+          "seq_id": 11,
+          "serial_no": "001011",
+          "pid": 277,
+          "children": [
+            {
+              "name": "有机大米",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "001011001",
+              "pid": 358,
+              "alias": "youjidami",
+              "id": 359
+            },
+            {
+              "name": "有机杂粮",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "001011002",
+              "pid": 358,
+              "alias": "youjizaliang",
+              "id": 360
+            },
+            {
+              "name": "有机水果",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "001011003",
+              "pid": 358,
+              "alias": "youjishuiguo",
+              "id": 361
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "001011004",
+              "pid": 358,
+              "alias": "qita",
+              "id": 362
+            }
+          ],
+          "alias": "youjishipin",
+          "id": 358
+        }
+      ],
+      "alias": "shipin",
+      "id": 277
+    },
+    {
+      "name": "服装",
+      "level": 1,
+      "seq_id": 2,
+      "serial_no": "002",
+      "pid": null,
+      "children": [
+        {
+          "name": "男下装",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "002001",
+          "pid": 1,
+          "children": [
+            {
+              "name": "休闲裤",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "002001001",
+              "pid": 2,
+              "alias": "xiuxianku",
+              "id": 3
+            },
+            {
+              "name": "牛仔裤",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "002001002",
+              "pid": 2,
+              "alias": "niuzaiku",
+              "id": 4
+            },
+            {
+              "name": "短裤",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "002001003",
+              "pid": 2,
+              "alias": "duanku",
+              "id": 5
+            }
+          ],
+          "alias": "nanxiazhuang",
+          "id": 2
+        },
+        {
+          "name": "男上装",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "002002",
+          "pid": 1,
+          "children": [
+            {
+              "name": "外套",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "002002001",
+              "pid": 6,
+              "alias": "waitao",
+              "id": 7
+            },
+            {
+              "name": "衬衫",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "002002002",
+              "pid": 6,
+              "alias": "chenshan",
+              "id": 8
+            },
+            {
+              "name": "卫衣",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "002002003",
+              "pid": 6,
+              "alias": "weiyi",
+              "id": 9
+            },
+            {
+              "name": "毛衣\/针织衫",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "002002004",
+              "pid": 6,
+              "alias": "maoyi\/zhenzhishan",
+              "id": 10
+            },
+            {
+              "name": "T恤\/Polo衫",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "002002005",
+              "pid": 6,
+              "alias": "Txu\/Poloshan",
+              "id": 11
+            },
+            {
+              "name": "大衣\/风衣",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "002002006",
+              "pid": 6,
+              "alias": "dayi\/fengyi",
+              "id": 12
+            },
+            {
+              "name": "马甲",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "002002007",
+              "pid": 6,
+              "alias": "majia",
+              "id": 13
+            },
+            {
+              "name": "棉服\/羽绒服",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "002002008",
+              "pid": 6,
+              "alias": "mianfu\/yurongfu",
+              "id": 14
+            }
+          ],
+          "alias": "nanshangzhuang",
+          "id": 6
+        },
+        {
+          "name": "裙装",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "002003",
+          "pid": 1,
+          "children": [
+            {
+              "name": "连衣裙",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "002003001",
+              "pid": 15,
+              "alias": "lianyiqun",
+              "id": 16
+            },
+            {
+              "name": "半身裙",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "002003002",
+              "pid": 15,
+              "alias": "banshenqun",
+              "id": 17
+            },
+            {
+              "name": "礼服裙",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "002003003",
+              "pid": 15,
+              "alias": "lifuqun",
+              "id": 18
+            }
+          ],
+          "alias": "qunzhuang",
+          "id": 15
+        },
+        {
+          "name": "女套装",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "002004",
+          "pid": 1,
+          "alias": "nvtaozhuang",
+          "id": 19
+        },
+        {
+          "name": "女下装",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "002005",
+          "pid": 1,
+          "children": [
+            {
+              "name": "休闲裤",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "002005001",
+              "pid": 20,
+              "alias": "xiuxianku",
+              "id": 21
+            },
+            {
+              "name": "牛仔裤",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "002005002",
+              "pid": 20,
+              "alias": "niuzaiku",
+              "id": 22
+            },
+            {
+              "name": "短裤",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "002005003",
+              "pid": 20,
+              "alias": "duanku",
+              "id": 23
+            },
+            {
+              "name": "紧身裤\/打底裤",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "002005004",
+              "pid": 20,
+              "alias": "jinshenku\/dadiku",
+              "id": 24
+            }
+          ],
+          "alias": "nvxiazhuang",
+          "id": 20
+        },
+        {
+          "name": "女上装",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "002006",
+          "pid": 1,
+          "children": [
+            {
+              "name": "外套",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "002006001",
+              "pid": 25,
+              "alias": "waitao",
+              "id": 26
+            },
+            {
+              "name": "衬衫\/雪纺衫",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "002006002",
+              "pid": 25,
+              "alias": "chenshan\/xuefangshan",
+              "id": 27
+            },
+            {
+              "name": "卫衣",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "002006003",
+              "pid": 25,
+              "alias": "weiyi",
+              "id": 28
+            },
+            {
+              "name": "毛衣\/针织衫",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "002006004",
+              "pid": 25,
+              "alias": "maoyi\/zhenzhishan",
+              "id": 29
+            },
+            {
+              "name": "T恤\/Polo衫",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "002006005",
+              "pid": 25,
+              "alias": "Txu\/Poloshan",
+              "id": 30
+            },
+            {
+              "name": "大衣\/风衣",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "002006006",
+              "pid": 25,
+              "alias": "dayi\/fengyi",
+              "id": 31
+            },
+            {
+              "name": "马甲",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "002006007",
+              "pid": 25,
+              "alias": "majia",
+              "id": 32
+            },
+            {
+              "name": "棉服\/羽绒服",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "002006008",
+              "pid": 25,
+              "alias": "mianfu\/yurongfu",
+              "id": 33
+            },
+            {
+              "name": "吊带\/背心",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "002006009",
+              "pid": 25,
+              "alias": "diaodai\/beixin",
+              "id": 34
+            }
+          ],
+          "alias": "nvshangzhuang",
+          "id": 25
+        }
+      ],
+      "alias": "fuzhuang",
+      "id": 1
+    },
+    {
+      "name": "配饰",
+      "level": 1,
+      "seq_id": 3,
+      "serial_no": "003",
+      "pid": null,
+      "children": [
+        {
+          "name": "耳钉\/耳环",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "003001",
+          "pid": 235,
+          "alias": "erding\/erhuan",
+          "id": 236
+        },
+        {
+          "name": "男袜",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "003003",
+          "pid": 235,
+          "alias": "nanwa",
+          "id": 238
+        },
+        {
+          "name": "墨镜",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "003004",
+          "pid": 235,
+          "alias": "mojing",
+          "id": 239
+        },
+        {
+          "name": "女袜",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "003005",
+          "pid": 235,
+          "alias": "nvwa",
+          "id": 240
+        },
+        {
+          "name": "眼镜",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "003006",
+          "pid": 235,
+          "alias": "yanjing",
+          "id": 241
+        },
+        {
+          "name": "项链\/吊坠",
+          "level": 2,
+          "seq_id": 7,
+          "serial_no": "003007",
+          "pid": 235,
+          "alias": "xianglian\/diaozhui",
+          "id": 242
+        },
+        {
+          "name": "头饰",
+          "level": 2,
+          "seq_id": 9,
+          "serial_no": "003009",
+          "pid": 235,
+          "alias": "toushi",
+          "id": 244
+        },
+        {
+          "name": "摆件\/挂件",
+          "level": 2,
+          "seq_id": 10,
+          "serial_no": "003010",
+          "pid": 235,
+          "alias": "baijian\/guajian",
+          "id": 245
+        },
+        {
+          "name": "戒指",
+          "level": 2,
+          "seq_id": 11,
+          "serial_no": "003011",
+          "pid": 235,
+          "alias": "jiezhi",
+          "id": 246
+        },
+        {
+          "name": "手套",
+          "level": 2,
+          "seq_id": 12,
+          "serial_no": "003012",
+          "pid": 235,
+          "alias": "shoutao",
+          "id": 247
+        },
+        {
+          "name": "挂件",
+          "level": 2,
+          "seq_id": 13,
+          "serial_no": "003013",
+          "pid": 235,
+          "children": [
+            {
+              "name": "钥匙扣",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "003013001",
+              "pid": 248,
+              "alias": "yuechikou",
+              "id": 249
+            }
+          ],
+          "alias": "guajian",
+          "id": 248
+        },
+        {
+          "name": "其他",
+          "level": 2,
+          "seq_id": 14,
+          "serial_no": "003014",
+          "pid": 235,
+          "alias": "qita",
+          "id": 250
+        },
+        {
+          "name": "胸针\/袖扣",
+          "level": 2,
+          "seq_id": 15,
+          "serial_no": "003015",
+          "pid": 235,
+          "alias": "xiongzhen\/xiukou",
+          "id": 251
+        },
+        {
+          "name": "腰带\/皮带",
+          "level": 2,
+          "seq_id": 16,
+          "serial_no": "003016",
+          "pid": 235,
+          "alias": "yaodai\/pidai",
+          "id": 252
+        },
+        {
+          "name": "帽子\/耳罩",
+          "level": 2,
+          "seq_id": 17,
+          "serial_no": "003017",
+          "pid": 235,
+          "alias": "maozi\/erzhao",
+          "id": 253
+        },
+        {
+          "name": "围巾\/披肩",
+          "level": 2,
+          "seq_id": 18,
+          "serial_no": "003018",
+          "pid": 235,
+          "alias": "weijin\/pijian",
+          "id": 254
+        },
+        {
+          "name": "手链\/手镯",
+          "level": 2,
+          "seq_id": 19,
+          "serial_no": "003019",
+          "pid": 235,
+          "alias": "shoulian\/shouzhuo",
+          "id": 255
+        }
+      ],
+      "alias": "peishi",
+      "id": 235
+    },
+    {
+      "name": "包袋",
+      "level": 1,
+      "seq_id": 4,
+      "serial_no": "004",
+      "pid": null,
+      "children": [
+        {
+          "name": "男包",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "004001",
+          "pid": 151,
+          "children": [
+            {
+              "name": "双肩包",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "004001001",
+              "pid": 152,
+              "alias": "shuangjianbao",
+              "id": 153
+            },
+            {
+              "name": "单肩包",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "004001002",
+              "pid": 152,
+              "alias": "danjianbao",
+              "id": 154
+            },
+            {
+              "name": "斜挎包",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "004001003",
+              "pid": 152,
+              "alias": "xiekuabao",
+              "id": 155
+            },
+            {
+              "name": "环保袋\/帆布包",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "004001004",
+              "pid": 152,
+              "alias": "huanbaodai\/fanbubao",
+              "id": 156
+            },
+            {
+              "name": "卡包\/零钱包",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "004001005",
+              "pid": 152,
+              "alias": "qiabao\/lingqianbao",
+              "id": 157
+            },
+            {
+              "name": "手拿包",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "004001006",
+              "pid": 152,
+              "alias": "shounabao",
+              "id": 158
+            },
+            {
+              "name": "手提包",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "004001007",
+              "pid": 152,
+              "alias": "shoutibao",
+              "id": 159
+            },
+            {
+              "name": "钱包",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "004001008",
+              "pid": 152,
+              "alias": "qianbao",
+              "id": 160
+            },
+            {
+              "name": "收纳袋\/包",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "004001009",
+              "pid": 152,
+              "alias": "shounadai\/bao",
+              "id": 161
+            },
+            {
+              "name": "电脑包",
+              "level": 3,
+              "seq_id": 10,
+              "serial_no": "004001010",
+              "pid": 152,
+              "alias": "diannaobao",
+              "id": 162
+            },
+            {
+              "name": "行李箱",
+              "level": 3,
+              "seq_id": 11,
+              "serial_no": "004001011",
+              "pid": 152,
+              "alias": "hanglixiang",
+              "id": 163
+            }
+          ],
+          "alias": "nanbao",
+          "id": 152
+        },
+        {
+          "name": "女包",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "004002",
+          "pid": 151,
+          "children": [
+            {
+              "name": "双肩包",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "004002001",
+              "pid": 164,
+              "alias": "shuangjianbao",
+              "id": 165
+            },
+            {
+              "name": "单肩包",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "004002002",
+              "pid": 164,
+              "alias": "danjianbao",
+              "id": 166
+            },
+            {
+              "name": "斜挎包",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "004002003",
+              "pid": 164,
+              "alias": "xiekuabao",
+              "id": 167
+            },
+            {
+              "name": "环保袋\/帆布包",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "004002004",
+              "pid": 164,
+              "alias": "huanbaodai\/fanbubao",
+              "id": 168
+            },
+            {
+              "name": "卡包\/零钱包",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "004002005",
+              "pid": 164,
+              "alias": "qiabao\/lingqianbao",
+              "id": 169
+            },
+            {
+              "name": "手拿包",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "004002006",
+              "pid": 164,
+              "alias": "shounabao",
+              "id": 170
+            },
+            {
+              "name": "手提包",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "004002007",
+              "pid": 164,
+              "alias": "shoutibao",
+              "id": 171
+            },
+            {
+              "name": "钱包",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "004002008",
+              "pid": 164,
+              "alias": "qianbao",
+              "id": 172
+            },
+            {
+              "name": "收纳袋\/包",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "004002009",
+              "pid": 164,
+              "alias": "shounadai\/bao",
+              "id": 173
+            },
+            {
+              "name": "电脑包",
+              "level": 3,
+              "seq_id": 10,
+              "serial_no": "004002010",
+              "pid": 164,
+              "alias": "diannaobao",
+              "id": 174
+            },
+            {
+              "name": "行李箱",
+              "level": 3,
+              "seq_id": 11,
+              "serial_no": "004002011",
+              "pid": 164,
+              "alias": "hanglixiang",
+              "id": 175
+            }
+          ],
+          "alias": "nvbao",
+          "id": 164
+        }
+      ],
+      "alias": "baodai",
+      "id": 151
+    },
+    {
+      "name": "鞋靴",
+      "level": 1,
+      "seq_id": 5,
+      "serial_no": "005",
+      "pid": null,
+      "children": [
+        {
+          "name": "女鞋",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "005001",
+          "pid": 256,
+          "children": [
+            {
+              "name": "平底单鞋",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "005001001",
+              "pid": 257,
+              "alias": "pingdidanxie",
+              "id": 258
+            },
+            {
+              "name": "高跟鞋",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "005001002",
+              "pid": 257,
+              "alias": "gaogenxie",
+              "id": 259
+            },
+            {
+              "name": "厚底鞋",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "005001003",
+              "pid": 257,
+              "alias": "houdixie",
+              "id": 260
+            },
+            {
+              "name": "运动休闲鞋",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "005001004",
+              "pid": 257,
+              "alias": "yundongxiuxianxie",
+              "id": 261
+            },
+            {
+              "name": "凉鞋",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "005001005",
+              "pid": 257,
+              "alias": "liangxie",
+              "id": 262
+            },
+            {
+              "name": "靴子",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "005001006",
+              "pid": 257,
+              "alias": "xuezi",
+              "id": 263
+            },
+            {
+              "name": "拖鞋",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "005001007",
+              "pid": 257,
+              "alias": "tuoxie",
+              "id": 264
+            }
+          ],
+          "alias": "nvxie",
+          "id": 257
+        },
+        {
+          "name": "男鞋",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "005002",
+          "pid": 256,
+          "children": [
+            {
+              "name": "单鞋",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "005002001",
+              "pid": 265,
+              "alias": "danxie",
+              "id": 266
+            },
+            {
+              "name": "运动休闲鞋",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "005002002",
+              "pid": 265,
+              "alias": "yundongxiuxianxie",
+              "id": 267
+            },
+            {
+              "name": "凉鞋",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "005002003",
+              "pid": 265,
+              "alias": "liangxie",
+              "id": 268
+            },
+            {
+              "name": "靴子",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "005002004",
+              "pid": 265,
+              "alias": "xuezi",
+              "id": 269
+            },
+            {
+              "name": "拖鞋",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "005002005",
+              "pid": 265,
+              "alias": "tuoxie",
+              "id": 270
+            }
+          ],
+          "alias": "nanxie",
+          "id": 265
+        }
+      ],
+      "alias": "xiexue",
+      "id": 256
+    },
+    {
+      "name": "美容护肤",
+      "level": 1,
+      "seq_id": 6,
+      "serial_no": "006",
+      "pid": null,
+      "children": [
+        {
+          "name": "套装",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "006002",
+          "pid": 115,
+          "alias": "taozhuang",
+          "id": 117
+        },
+        {
+          "name": "面部护肤",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "006003",
+          "pid": 115,
+          "children": [
+            {
+              "name": "洁面",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "006003001",
+              "pid": 118,
+              "alias": "jiemian",
+              "id": 119
+            },
+            {
+              "name": "霜\/乳",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "006003002",
+              "pid": 118,
+              "alias": "shuang\/ru",
+              "id": 120
+            },
+            {
+              "name": "眼部护理",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "006003003",
+              "pid": 118,
+              "alias": "yanbuhuli",
+              "id": 121
+            },
+            {
+              "name": "唇部护理",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "006003004",
+              "pid": 118,
+              "alias": "chunbuhuli",
+              "id": 122
+            },
+            {
+              "name": "面膜",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "006003005",
+              "pid": 118,
+              "alias": "mianmo",
+              "id": 123
+            },
+            {
+              "name": "凝胶\/露",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "006003006",
+              "pid": 118,
+              "alias": "ningjiao\/lou",
+              "id": 124
+            },
+            {
+              "name": "精华\/精油",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "006003007",
+              "pid": 118,
+              "alias": "jinghua\/jingyou",
+              "id": 125
+            },
+            {
+              "name": "爽肤水\/化妆水",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "006003008",
+              "pid": 118,
+              "alias": "shuangfushui\/huazhuangshui",
+              "id": 126
+            },
+            {
+              "name": "卸妆",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "006003009",
+              "pid": 118,
+              "alias": "xiezhuang",
+              "id": 127
+            },
+            {
+              "name": "防晒霜\/乳",
+              "level": 3,
+              "seq_id": 10,
+              "serial_no": "006003010",
+              "pid": 118,
+              "alias": "fangshaishuang\/ru",
+              "id": 128
+            }
+          ],
+          "alias": "mianbuhufu",
+          "id": 118
+        },
+        {
+          "name": "身体护理",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "006004",
+          "pid": 115,
+          "children": [
+            {
+              "name": "身体乳\/霜",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "006004001",
+              "pid": 129,
+              "alias": "shentiru\/shuang",
+              "id": 130
+            },
+            {
+              "name": "沐浴\/清洁",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "006004002",
+              "pid": 129,
+              "alias": "muyu\/qingjie",
+              "id": 131
+            },
+            {
+              "name": "洗发护发",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "006004003",
+              "pid": 129,
+              "alias": "xifahufa",
+              "id": 132
+            },
+            {
+              "name": "护手霜",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "006004006",
+              "pid": 129,
+              "alias": "hushoushuang",
+              "id": 135
+            },
+            {
+              "name": "牙膏牙刷",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "006004007",
+              "pid": 129,
+              "alias": "yagaoyashua",
+              "id": 136
+            },
+            {
+              "name": "精油",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "006004008",
+              "pid": 129,
+              "alias": "jingyou",
+              "id": 137
+            },
+            {
+              "name": "美容工具",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "006004009",
+              "pid": 129,
+              "alias": "meironggongju",
+              "id": 138
+            },
+            {
+              "name": "个人护理",
+              "level": 3,
+              "seq_id": 10,
+              "serial_no": "006004010",
+              "pid": 129,
+              "alias": "gerenhuli",
+              "id": 384
+            }
+          ],
+          "alias": "shentihuli",
+          "id": 129
+        },
+        {
+          "name": "香水",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "006005",
+          "pid": 115,
+          "alias": "xiangshui",
+          "id": 139
+        },
+        {
+          "name": "指彩",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "006006",
+          "pid": 115,
+          "alias": "zhicai",
+          "id": 140
+        },
+        {
+          "name": "彩妆",
+          "level": 2,
+          "seq_id": 7,
+          "serial_no": "006007",
+          "pid": 115,
+          "children": [
+            {
+              "name": "口红",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "006007001",
+              "pid": 141,
+              "alias": "kouhong",
+              "id": 142
+            }
+          ],
+          "alias": "caizhuang",
+          "id": 141
+        }
+      ],
+      "alias": "meironghufu",
+      "id": 115
+    },
+    {
+      "name": "家居",
+      "level": 1,
+      "seq_id": 7,
+      "serial_no": "007",
+      "pid": null,
+      "children": [
+        {
+          "name": "家纺",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "007001",
+          "pid": 35,
+          "children": [
+            {
+              "name": "抱枕",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007001001",
+              "pid": 89,
+              "alias": "baozhen",
+              "id": 90
+            },
+            {
+              "name": "床品件套",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007001003",
+              "pid": 89,
+              "alias": "chuangpinjiantao",
+              "id": 92
+            },
+            {
+              "name": "被\/毯",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007001004",
+              "pid": 89,
+              "alias": "bei\/tan",
+              "id": 93
+            },
+            {
+              "name": "枕头",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007001005",
+              "pid": 89,
+              "alias": "zhentou",
+              "id": 94
+            },
+            {
+              "name": "毛巾\/浴巾",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "007001006",
+              "pid": 89,
+              "alias": "maojin\/yujin",
+              "id": 95
+            },
+            {
+              "name": "布艺软饰",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "007001008",
+              "pid": 89,
+              "alias": "buyiruanshi",
+              "id": 97
+            },
+            {
+              "name": "坐垫",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "007001009",
+              "pid": 89,
+              "alias": "zuodian",
+              "id": 381
+            }
+          ],
+          "alias": "jiafang",
+          "id": 89
+        },
+        {
+          "name": "餐厨",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "007002",
+          "pid": 35,
+          "children": [
+            {
+              "name": "餐具",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007002001",
+              "pid": 98,
+              "alias": "canju",
+              "id": 99
+            },
+            {
+              "name": "厨具",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007002002",
+              "pid": 98,
+              "alias": "chuju",
+              "id": 100
+            },
+            {
+              "name": "水具",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007002003",
+              "pid": 98,
+              "alias": "shuiju",
+              "id": 101
+            },
+            {
+              "name": "烹饪工具",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007002004",
+              "pid": 98,
+              "alias": "pengrengongju",
+              "id": 102
+            },
+            {
+              "name": "厨房配件",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007002005",
+              "pid": 98,
+              "alias": "chufangpeijian",
+              "id": 103
+            },
+            {
+              "name": "保鲜收纳",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "007002006",
+              "pid": 98,
+              "alias": "baoxianshouna",
+              "id": 104
+            },
+            {
+              "name": "咖啡具",
+              "level": 3,
+              "seq_id": 9,
+              "serial_no": "007002007",
+              "pid": 98,
+              "alias": "kafeiju",
+              "id": 382
+            }
+          ],
+          "alias": "canchu",
+          "id": 98
+        },
+        {
+          "name": "装饰",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "007003",
+          "pid": 35,
+          "children": [
+            {
+              "name": "墙面装饰",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007003001",
+              "pid": 57,
+              "alias": "qiangmianzhuangshi",
+              "id": 58
+            },
+            {
+              "name": "桌面装饰",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007003002",
+              "pid": 57,
+              "alias": "zhuomianzhuangshi",
+              "id": 59
+            },
+            {
+              "name": "挂件\/摆件",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007003003",
+              "pid": 57,
+              "alias": "guajian\/baijian",
+              "id": 60
+            },
+            {
+              "name": "钟表",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007003004",
+              "pid": 57,
+              "alias": "zhongbiao",
+              "id": 61
+            },
+            {
+              "name": "地毯",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007003005",
+              "pid": 57,
+              "alias": "ditan",
+              "id": 62
+            },
+            {
+              "name": "材料\/工具",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "007003007",
+              "pid": 57,
+              "alias": "cailiao\/gongju",
+              "id": 64
+            }
+          ],
+          "alias": "zhuangshi",
+          "id": 57
+        },
+        {
+          "name": "浴室\/收纳",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "007004",
+          "pid": 35,
+          "children": [
+            {
+              "name": "盥洗",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007004001",
+              "pid": 105,
+              "alias": "guanxi",
+              "id": 106
+            },
+            {
+              "name": "洁具",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007004002",
+              "pid": 105,
+              "alias": "jieju",
+              "id": 107
+            },
+            {
+              "name": "箱",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007004003",
+              "pid": 105,
+              "alias": "xiang",
+              "id": 108
+            },
+            {
+              "name": "袋",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007004004",
+              "pid": 105,
+              "alias": "dai",
+              "id": 109
+            },
+            {
+              "name": "盒",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007004005",
+              "pid": 105,
+              "alias": "he",
+              "id": 110
+            },
+            {
+              "name": "筐",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "007004006",
+              "pid": 105,
+              "alias": "kuang",
+              "id": 111
+            },
+            {
+              "name": "罐",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "007004007",
+              "pid": 105,
+              "alias": "guan",
+              "id": 112
+            },
+            {
+              "name": "置物架",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "007004008",
+              "pid": 105,
+              "alias": "zhiwujia",
+              "id": 113
+            }
+          ],
+          "alias": "yushi\/shouna",
+          "id": 105
+        },
+        {
+          "name": "灯",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "007005",
+          "pid": 35,
+          "children": [
+            {
+              "name": "台灯",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007005001",
+              "pid": 52,
+              "alias": "taideng",
+              "id": 53
+            },
+            {
+              "name": "吊灯",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007005002",
+              "pid": 52,
+              "alias": "diaodeng",
+              "id": 54
+            },
+            {
+              "name": "落地灯",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007005003",
+              "pid": 52,
+              "alias": "luodideng",
+              "id": 55
+            },
+            {
+              "name": "夜灯",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007005004",
+              "pid": 52,
+              "alias": "yedeng",
+              "id": 56
+            }
+          ],
+          "alias": "deng",
+          "id": 52
+        },
+        {
+          "name": "家具",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "007006",
+          "pid": 35,
+          "children": [
+            {
+              "name": "椅子\/凳子",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007006001",
+              "pid": 77,
+              "alias": "yizi\/dengzi",
+              "id": 78
+            },
+            {
+              "name": "桌子",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007006002",
+              "pid": 77,
+              "alias": "zhuozi",
+              "id": 79
+            },
+            {
+              "name": "床",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007006003",
+              "pid": 77,
+              "alias": "chuang",
+              "id": 80
+            },
+            {
+              "name": "柜子",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007006004",
+              "pid": 77,
+              "alias": "guizi",
+              "id": 81
+            },
+            {
+              "name": "架子",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007006005",
+              "pid": 77,
+              "alias": "jiazi",
+              "id": 82
+            },
+            {
+              "name": "沙发",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "007006006",
+              "pid": 77,
+              "alias": "shafa",
+              "id": 83
+            }
+          ],
+          "alias": "jiaju",
+          "id": 77
+        },
+        {
+          "name": "文具",
+          "level": 2,
+          "seq_id": 7,
+          "serial_no": "007007",
+          "pid": 35,
+          "children": [
+            {
+              "name": "笔",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007007001",
+              "pid": 36,
+              "alias": "bi",
+              "id": 37
+            },
+            {
+              "name": "本",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007007002",
+              "pid": 36,
+              "alias": "ben",
+              "id": 38
+            },
+            {
+              "name": "明信片",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007007003",
+              "pid": 36,
+              "alias": "mingxinpian",
+              "id": 39
+            },
+            {
+              "name": "收纳",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007007004",
+              "pid": 36,
+              "alias": "shouna",
+              "id": 40
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007007005",
+              "pid": 36,
+              "alias": "qita",
+              "id": 41
+            }
+          ],
+          "alias": "wenju",
+          "id": 36
+        },
+        {
+          "name": "清理",
+          "level": 2,
+          "seq_id": 8,
+          "serial_no": "007008",
+          "pid": 35,
+          "children": [
+            {
+              "name": "净化除味",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007008001",
+              "pid": 42,
+              "alias": "jinghuachuwei",
+              "id": 43
+            },
+            {
+              "name": "清洁工具",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "007008004",
+              "pid": 42,
+              "alias": "qingjiegongju",
+              "id": 46
+            },
+            {
+              "name": "一次性用品",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "007008005",
+              "pid": 42,
+              "alias": "yicixingyongpin",
+              "id": 47
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "007008006",
+              "pid": 42,
+              "alias": "qita",
+              "id": 48
+            }
+          ],
+          "alias": "qingli",
+          "id": 42
+        },
+        {
+          "name": "家电",
+          "level": 2,
+          "seq_id": 9,
+          "serial_no": "007009",
+          "pid": 35,
+          "children": [
+            {
+              "name": "生活家电",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007009001",
+              "pid": 73,
+              "alias": "shenghuojiadian",
+              "id": 74
+            },
+            {
+              "name": "个人护理",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007009003",
+              "pid": 73,
+              "alias": "gerenhuli",
+              "id": 76
+            }
+          ],
+          "alias": "jiadian",
+          "id": 73
+        },
+        {
+          "name": "园艺\/宠物",
+          "level": 2,
+          "seq_id": 10,
+          "serial_no": "007010",
+          "pid": 35,
+          "children": [
+            {
+              "name": "鲜花绿植",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007010001",
+              "pid": 65,
+              "alias": "xianhualvzhi",
+              "id": 66
+            },
+            {
+              "name": "园艺工具",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007010002",
+              "pid": 65,
+              "alias": "yuanyigongju",
+              "id": 67
+            },
+            {
+              "name": "花器",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "007010003",
+              "pid": 65,
+              "alias": "huaqi",
+              "id": 68
+            },
+            {
+              "name": "宠物生活",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "007010007",
+              "pid": 65,
+              "alias": "chongwushenghuo",
+              "id": 72
+            }
+          ],
+          "alias": "yuanyi\/chongwu",
+          "id": 65
+        },
+        {
+          "name": "雨具",
+          "level": 2,
+          "seq_id": 11,
+          "serial_no": "007011",
+          "pid": 35,
+          "children": [
+            {
+              "name": "雨衣",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "007011001",
+              "pid": 49,
+              "alias": "yuyi",
+              "id": 50
+            },
+            {
+              "name": "雨伞",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007011002",
+              "pid": 49,
+              "alias": "yusan",
+              "id": 51
+            }
+          ],
+          "alias": "yuju",
+          "id": 49
+        },
+        {
+          "name": "汽车用品",
+          "level": 2,
+          "seq_id": 12,
+          "serial_no": "007012",
+          "pid": 35,
+          "children": [
+            {
+              "name": "汽车装饰",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "007012002",
+              "pid": 85,
+              "alias": "qichezhuangshi",
+              "id": 87
+            }
+          ],
+          "alias": "qicheyongpin",
+          "id": 85
+        }
+      ],
+      "alias": "jiajushenghuo",
+      "id": 35
+    },
+    {
+      "name": "时间",
+      "level": 1,
+      "seq_id": 8,
+      "serial_no": "017",
+      "pid": null,
+      "children": [
+        {
+          "name": "腕表",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "017001",
+          "pid": 183,
+          "children": [
+            {
+              "name": "男表",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "017001003",
+              "pid": 473,
+              "alias": "nanbiao",
+              "id": 186
+            },
+            {
+              "name": "女表",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "017001004",
+              "pid": 473,
+              "alias": "nvbiao",
+              "id": 187
+            },
+            {
+              "name": "时装表",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "017001008",
+              "pid": 473,
+              "alias": "shizhuangbiao",
+              "id": 192
+            },
+            {
+              "name": "日本表",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "017001001",
+              "pid": 473,
+              "alias": "ribenbiao",
+              "id": 184
+            },
+            {
+              "name": "瑞士表",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "017001006",
+              "pid": 473,
+              "alias": "ruishibiao",
+              "id": 189
+            },
+            {
+              "name": "国产表",
+              "level": 3,
+              "seq_id": 8,
+              "serial_no": "017001007",
+              "pid": 473,
+              "alias": "guochanbiao",
+              "id": 191
+            }
+          ],
+          "alias": "wanbiao",
+          "id": 473
+        },
+        {
+          "name": "钟",
+          "level": 2,
+          "seq_id": 7,
+          "serial_no": "017002",
+          "pid": 183,
+          "alias": "zhong",
+          "id": 190
+        }
+      ],
+      "alias": "zhongbiao",
+      "id": 183
+    },
+    {
+      "name": "3C数码",
+      "level": 1,
+      "seq_id": 9,
+      "serial_no": "009",
+      "pid": null,
+      "children": [
+        {
+          "name": "数码影音",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "009001",
+          "pid": 363,
+          "children": [
+            {
+              "name": "耳机",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "009001001",
+              "pid": 364,
+              "alias": "erji",
+              "id": 365
+            },
+            {
+              "name": "音箱",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "009001002",
+              "pid": 364,
+              "alias": "yinxiang",
+              "id": 366
+            },
+            {
+              "name": "摄影摄像",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "009001004",
+              "pid": 364,
+              "alias": "sheyingshexiang",
+              "id": 368
+            },
+            {
+              "name": "数码配件",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "009001005",
+              "pid": 364,
+              "alias": "shumapeijian",
+              "id": 369
+            }
+          ],
+          "alias": "shumayingyin",
+          "id": 364
+        },
+        {
+          "name": "电脑周边",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "009002",
+          "pid": 363,
+          "children": [
+            {
+              "name": "存储工具",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "009002001",
+              "pid": 370,
+              "alias": "cunchugongju",
+              "id": 371
+            },
+            {
+              "name": "外设产品",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "009002002",
+              "pid": 370,
+              "alias": "waishechanpin",
+              "id": 372
+            },
+            {
+              "name": "其他",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "009002004",
+              "pid": 370,
+              "alias": "qita",
+              "id": 374
+            }
+          ],
+          "alias": "diannaozhoubian",
+          "id": 370
+        },
+        {
+          "name": "手机配件",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "009003",
+          "pid": 363,
+          "children": [
+            {
+              "name": "壳\/膜",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "009003001",
+              "pid": 375,
+              "alias": "ke\/mo",
+              "id": 376
+            },
+            {
+              "name": "手机配件",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "009003002",
+              "pid": 375,
+              "alias": "shoujipeijian",
+              "id": 377
+            },
+            {
+              "name": "数据线",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "009003003",
+              "pid": 375,
+              "alias": "shujuxian",
+              "id": 378
+            },
+            {
+              "name": "电源\/充电",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "009003004",
+              "pid": 375,
+              "alias": "dianyuan\/chongdian",
+              "id": 379
+            },
+            {
+              "name": "配饰",
+              "level": 3,
+              "seq_id": 5,
+              "serial_no": "009003005",
+              "pid": 375,
+              "alias": "peishi",
+              "id": 380
+            }
+          ],
+          "alias": "shoujipeijian",
+          "id": 375
+        }
+      ],
+      "alias": "3Cshuma",
+      "id": 363
+    },
+    {
+      "name": "情侣装",
+      "level": 1,
+      "seq_id": 10,
+      "serial_no": "008",
+      "pid": null,
+      "alias": "qinglvzhuang",
+      "id": 114
+    },
+    {
+      "name": "母婴儿童",
+      "level": 1,
+      "seq_id": 11,
+      "serial_no": "010",
+      "pid": null,
+      "children": [
+        {
+          "name": "儿童服饰",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "010001",
+          "pid": 224,
+          "alias": "ertongfushi",
+          "id": 225
+        },
+        {
+          "name": "母婴用品",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "010002",
+          "pid": 224,
+          "children": [
+            {
+              "name": "用品",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "010002001",
+              "pid": 226,
+              "alias": "yongpin",
+              "id": 227
+            },
+            {
+              "name": "护理",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "010002003",
+              "pid": 226,
+              "alias": "huli",
+              "id": 229
+            },
+            {
+              "name": "婴儿服装",
+              "level": 3,
+              "seq_id": 4,
+              "serial_no": "010002004",
+              "pid": 226,
+              "alias": "yingerfuzhuang",
+              "id": 230
+            }
+          ],
+          "alias": "muyingyongpin",
+          "id": 226
+        }
+      ],
+      "alias": "muyingertong",
+      "id": 224
+    },
+    {
+      "name": "内衣",
+      "level": 1,
+      "seq_id": 12,
+      "serial_no": "011",
+      "pid": null,
+      "children": [
+        {
+          "name": "男生",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "011001",
+          "pid": 193,
+          "children": [
+            {
+              "name": "内裤",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "011001001",
+              "pid": 194,
+              "alias": "neiku",
+              "id": 195
+            },
+            {
+              "name": "睡衣\/家居服",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "011001002",
+              "pid": 194,
+              "alias": "shuiyi\/jiajufu",
+              "id": 196
+            },
+            {
+              "name": "内衣",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "011001003",
+              "pid": 194,
+              "alias": "neiyi",
+              "id": 383
+            }
+          ],
+          "alias": "nansheng",
+          "id": 194
+        },
+        {
+          "name": "情侣套装",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "011002",
+          "pid": 193,
+          "alias": "qinglvtaozhuang",
+          "id": 197
+        },
+        {
+          "name": "女生",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "011003",
+          "pid": 193,
+          "children": [
+            {
+              "name": "内衣",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "011003001",
+              "pid": 198,
+              "alias": "neiyi",
+              "id": 199
+            },
+            {
+              "name": "内裤",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "011003002",
+              "pid": 198,
+              "alias": "neiku",
+              "id": 200
+            },
+            {
+              "name": "睡衣\/家居服",
+              "level": 3,
+              "seq_id": 3,
+              "serial_no": "011003003",
+              "pid": 198,
+              "alias": "shuiyi\/jiajufu",
+              "id": 201
+            }
+          ],
+          "alias": "nvsheng",
+          "id": 198
+        }
+      ],
+      "alias": "neiyi",
+      "id": 193
+    },
+    {
+      "name": "运动户外",
+      "level": 1,
+      "seq_id": 13,
+      "serial_no": "012",
+      "pid": null,
+      "children": [
+        {
+          "name": "装备",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "012001",
+          "pid": 202,
+          "children": [
+            {
+              "name": "自行车",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "012001007",
+              "pid": 203,
+              "alias": "zixingche",
+              "id": 210
+            }
+          ],
+          "alias": "zhuangbei",
+          "id": 203
+        },
+        {
+          "name": "服饰",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "012003",
+          "pid": 202,
+          "children": [
+            {
+              "name": "上装",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "012003001",
+              "pid": 215,
+              "alias": "shangzhuang",
+              "id": 216
+            },
+            {
+              "name": "下装",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "012003002",
+              "pid": 215,
+              "alias": "xiazhuang",
+              "id": 217
+            }
+          ],
+          "alias": "fushi",
+          "id": 215
+        },
+        {
+          "name": "其他",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "012004",
+          "pid": 202,
+          "alias": "qita",
+          "id": 220
+        }
+      ],
+      "alias": "yundonghuwai",
+      "id": 202
+    },
+    {
+      "name": "玩具",
+      "level": 1,
+      "seq_id": 14,
+      "serial_no": "013",
+      "pid": null,
+      "children": [
+        {
+          "name": "创意",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "013001",
+          "pid": 177,
+          "alias": "chuangyi",
+          "id": 178
+        },
+        {
+          "name": "公仔",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "013002",
+          "pid": 177,
+          "alias": "gongzi",
+          "id": 179
+        },
+        {
+          "name": "拼插",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "013003",
+          "pid": 177,
+          "alias": "pincha",
+          "id": 180
+        },
+        {
+          "name": "DIY",
+          "level": 2,
+          "seq_id": 4,
+          "serial_no": "013004",
+          "pid": 177,
+          "alias": "DIY",
+          "id": 181
+        },
+        {
+          "name": "益智",
+          "level": 2,
+          "seq_id": 5,
+          "serial_no": "013005",
+          "pid": 177,
+          "alias": "yizhi",
+          "id": 182
+        }
+      ],
+      "alias": "wanju",
+      "id": 177
+    },
+    {
+      "name": "汽车用品",
+      "level": 1,
+      "seq_id": 16,
+      "serial_no": "015",
+      "pid": null,
+      "children": [
+        {
+          "name": "清洁美容",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "015001",
+          "pid": 231,
+          "alias": "qingjiemeirong",
+          "id": 232
+        },
+        {
+          "name": "汽车装饰",
+          "level": 2,
+          "seq_id": 3,
+          "serial_no": "015003",
+          "pid": 231,
+          "alias": "qichezhuangshi",
+          "id": 234
+        }
+      ],
+      "alias": "qicheyongpin",
+      "id": 231
+    },
+    {
+      "name": "艺术品",
+      "level": 1,
+      "seq_id": 17,
+      "serial_no": "016",
+      "pid": null,
+      "alias": "yishupin",
+      "id": 176
+    },
+    {
+      "name": "图书",
+      "level": 1,
+      "seq_id": 18,
+      "serial_no": "018",
+      "pid": null,
+      "children": [
+        {
+          "name": "文艺",
+          "level": 2,
+          "seq_id": 1,
+          "serial_no": "018001",
+          "pid": 385,
+          "children": [
+            {
+              "name": "文学",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "018001002",
+              "pid": 386,
+              "alias": "wenxue",
+              "id": 388
+            },
+            {
+              "name": "艺术",
+              "level": 3,
+              "seq_id": 6,
+              "serial_no": "018001006",
+              "pid": 386,
+              "alias": "yishu",
+              "id": 392
+            }
+          ],
+          "alias": "wenyi",
+          "id": 386
+        },
+        {
+          "name": "社科",
+          "level": 2,
+          "seq_id": 2,
+          "serial_no": "018002",
+          "pid": 385,
+          "children": [
+            {
+              "name": "哲学",
+              "level": 3,
+              "seq_id": 2,
+              "serial_no": "018002002",
+              "pid": 394,
+              "alias": "zhexue",
+              "id": 396
+            }
+          ],
+          "alias": "sheke",
+          "id": 394
+        },
+        {
+          "name": "生活",
+          "level": 2,
+          "seq_id": 6,
+          "serial_no": "018006",
+          "pid": 385,
+          "children": [
+            {
+              "name": "美食",
+              "level": 3,
+              "seq_id": 1,
+              "serial_no": "018006001",
+              "pid": 423,
+              "alias": "meishi",
+              "id": 424
+            },
+            {
+              "name": "时尚生活",
+              "level": 3,
+              "seq_id": 7,
+              "serial_no": "018006007",
+              "pid": 423,
+              "alias": "shishangshenghuo",
+              "id": 430
+            }
+          ],
+          "alias": "shenghuo",
+          "id": 423
+        },
+        {
+          "name": "绘本",
+          "level": 2,
+          "seq_id": 8,
+          "serial_no": "018008",
+          "pid": 385,
+          "alias": "huiben",
+          "id": 438
+        }
+      ],
+      "alias": "tushu",
+      "id": 385
+    }
+  ],
+  "products": [
+    {
+      "follow_num": 1094,
+      "sku_id": 65657,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p328031.jpg",
+      "price": "47.00",
+      "market_price": "47.00",
+      "id": 21858,
+      "shop_url": "https:\/\/market.douban.com\/huangxiaojie\/",
+      "title": "黄小姐 莫代尔带bra吊带背心 mh318",
+      "url": "https:\/\/market.douban.com\/item\/65657\/",
+      "brand": "黄小姐",
+      "promote_price": "47.00"
+    },
+    {
+      "follow_num": 600,
+      "sku_id": 79014,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p395832.jpg",
+      "price": "99.00",
+      "market_price": "119.00",
+      "id": 25542,
+      "shop_url": "https:\/\/market.douban.com\/pisn\/",
+      "title": "PISN 夏季极简多色V领双层打底吊带背心",
+      "url": "https:\/\/market.douban.com\/item\/79014\/",
+      "brand": "PISN",
+      "promote_price": "99.00"
+    },
+    {
+      "follow_num": 261,
+      "sku_id": 79913,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p399620.jpg",
+      "price": "99.00",
+      "market_price": "168.00",
+      "id": 25752,
+      "shop_url": "https:\/\/market.douban.com\/xiansheng\/",
+      "title": "先笙原创设计中国风天然亚麻五分裤",
+      "url": "https:\/\/market.douban.com\/item\/79913\/",
+      "brand": "先笙",
+      "promote_price": "99.00"
+    },
+    {
+      "follow_num": 44,
+      "sku_id": 75146,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p380005.jpg",
+      "price": "62.10",
+      "market_price": "69.00",
+      "id": 24593,
+      "shop_url": "https:\/\/market.douban.com\/huiyisenlin\/",
+      "title": "回忆森林\/原点\/百搭亚麻可爱九分裤显瘦波点直筒裤休闲裤女小脚裤",
+      "url": "https:\/\/market.douban.com\/item\/75146\/",
+      "brand": "回忆森林",
+      "promote_price": "62.10"
+    },
+    {
+      "follow_num": 50,
+      "sku_id": 74748,
+      "is_liked": false,
+      "cover_url": "https://img1.doubanio.com\/view\/dianpu_product_item\/large\/public\/p378868.jpg",
+      "price": "98.00",
+      "market_price": "175.00",
+      "id": 24488,
+      "shop_url": "https:\/\/market.douban.com\/xiansheng\/",
+      "title": "先笙新款男士纯棉嬉皮人脸图案T恤",
+      "url": "https:\/\/market.douban.com\/item\/74748\/",
+      "brand": "先笙",
+      "promote_price": "98.00"
+    },
+    {
+      "follow_num": 35,
+      "sku_id": 70615,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p369024.jpg",
+      "price": "98.00",
+      "market_price": "187.00",
+      "id": 23370,
+      "shop_url": "https:\/\/market.douban.com\/xiansheng\/",
+      "title": "先笙新款男士100%纯棉T恤图案创想猴",
+      "url": "https:\/\/market.douban.com\/item\/70615\/",
+      "brand": "先笙",
+      "promote_price": "98.00"
+    },
+    {
+      "follow_num": 314,
+      "sku_id": 76461,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p385454.jpg",
+      "price": "179.00",
+      "market_price": "298.00",
+      "id": 24942,
+      "shop_url": "https:\/\/market.douban.com\/pisn\/",
+      "title": "PISN2016 夏季新款 设计款白色九分休闲时尚大卷边阔腿裤",
+      "url": "https:\/\/market.douban.com\/item\/76461\/",
+      "brand": "PISN",
+      "promote_price": "179.00"
+    },
+    {
+      "follow_num": 208,
+      "sku_id": 65679,
+      "is_liked": false,
+      "cover_url": "https://img5.doubanio.com\/view\/dianpu_product_item\/large\/public\/p328106.jpg",
+      "price": "37.00",
+      "market_price": "37.00",
+      "id": 21863,
+      "shop_url": "https:\/\/market.douban.com\/huangxiaojie\/",
+      "title": "黄小姐 纯棉竖纹短袖 mh317。",
+      "url": "https:\/\/market.douban.com\/item\/65679\/",
+      "brand": "黄小姐",
+      "promote_price": "37.00"
+    },
+    {
+      "follow_num": 77,
+      "sku_id": 65784,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p328451.jpg",
+      "price": "57.00",
+      "market_price": "57.00",
+      "id": 21876,
+      "shop_url": "https:\/\/market.douban.com\/huangxiaojie\/",
+      "title": "黄小姐 莫代尔带bra长袖打底衫 mh243。",
+      "url": "https:\/\/market.douban.com\/item\/65784\/",
+      "brand": "黄小姐",
+      "promote_price": "57.00"
+    },
+    {
+      "follow_num": 104,
+      "sku_id": 61682,
+      "is_liked": false,
+      "cover_url": "https://img3.doubanio.com\/view\/dianpu_product_item\/large\/public\/p369234.jpg",
+      "price": "99.00",
+      "market_price": "158.00",
+      "id": 19665,
+      "shop_url": "https:\/\/market.douban.com\/xiansheng\/",
+      "title": "先笙新款原创设计精兰棉神秘鸟短袖T恤",
+      "url": "https:\/\/market.douban.com\/item\/61682\/",
+      "brand": "先笙",
+      "promote_price": "99.00"
+    }
+  ],
+  "total": "2397"
+}

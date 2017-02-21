@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import "mixins";
+
+.content-details {
+  width: 100%;
+  box-sizing: border-box;
+
+  .content-nav {
+    border-bottom: 2px solid #e17c72;
+
+    & > .nav-item {
+      padding: 0 rem(20);
+      font-weight: 500;
+      font-size: 100%;
+    }
+    & > .active {
+      color: #e17c72;
+    }
+  }
+
+  .content-wrapper {
+    position: relative;
+    padding: rem(30);
+    box-sizing: border-box;
+    text-align: center;
+
+    // 商品详情中的单张商品图片
+    .item-info-pic {
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
+}
+
+// 页脚部分
+.item-footer {
+  width: 100%;
+  padding-top: rem(60);
+  overflow: hidden;
+  font-size: 100%;
+  color: #9b9b9b;
+
+  .shop-help {
+    padding: rem(5) 1em;
+    border-bottom: rem(1) solid #c8c8c8;
+
+    & > span {
+      margin: 0 1em;
+    }
+  }
+
+  .go-shop {
+    width: 100%;
+    height: rem(140);
+
+    text-align: center;
+    line-height: rem(140);
+
+    .home {
+      color: #3ba94d;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import "mixins";
+
+$baseBackGround: #f8f8f8;
+$baseColor: #9b9b9b;
+.people {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: system,-apple-system,".SFNSDisplay-Regular","Lantinghei SC","PingfangSC","Source Han Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1.2em;
+  color: $baseColor;
+  background-color: $baseBackGround;
+
+  overflow: hidden;
+}
+
+.people__header {
+  margin-bottom: rem(55);
+  margin-top: rem(55);
+}
+
+.people__login {
+  padding: rem(50) rem(30);
+  background-color: #fff;
+  border-top: 2px solid #9b9b9b;
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.btn--long {
+  margin: {
+    top: rem(40);
+    bottom: rem(40);
+  }
+}
+
+.people__footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding-bottom: rem(50);
+
+  & > p {
+    margin-bottom: rem(40);
+  }
+}
+
+
+.people__footer--search {
+  text-decoration: underline;
+}

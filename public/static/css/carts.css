@@ -1,0 +1,71 @@
+.carts {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.33333rem;
+}
+
+.cart-shop-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.16rem 0.13333rem;
+}
+.cart-shop-wrapper .shop-header {
+  margin: 0.13333rem 0;
+}
+.cart-shop-wrapper .shop-header > span:first-child {
+  font-size: 120%;
+}
+.cart-shop-wrapper .shop-name {
+  margin-left: 1em;
+  font-size: 100%;
+  color: #9b9b9b;
+}
+
+.go-pay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  height: 1.2rem;
+  padding: 0 0.26667rem;
+  color: #fff;
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 1.2rem;
+  background-color: #ff0000;
+}
+.go-pay .left {
+  flex: 3;
+  border-right: 2px solid #fff;
+}
+.go-pay .left span {
+  display: inline-block;
+  margin-right: 1em;
+  height: 100%;
+}
+.go-pay .right {
+  flex: 1;
+  padding-left: 1em;
+  text-align: center;
+}
+.go-pay .select-all {
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+.go-pay .select-all i {
+  display: inline-block;
+  font-size: 1.3em;
+  margin-right: 0.13333rem;
+  margin-top: 0.32rem;
+  color: #fff;
+}
+.go-pay .total-price {
+  font-size: 120%;
+  color: #333;
+}
+
+/*# sourceMappingURL=carts.css.map */

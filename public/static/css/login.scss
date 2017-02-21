@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import "mixins";
+
+$login-btn-color: #17AA52;
+
+.login__header {
+  position: relative;
+  padding: 0 rem(36);
+  margin-bottom: rem(20);
+  height: rem(92);
+  line-height: rem(92);
+  text-align: center;
+  font-size: 100%;
+  border-bottom: 3px solid #eee;
+
+  & h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+}
+
+
+.login__header--cancel {
+  position: absolute;
+  left: rem(18 * 2);
+  font-size: 1.2em;
+}
+
+.login__main {
+  padding: rem(30);
+}
+
+.login__item {
+  display: block;
+  box-sizing: border-box;
+  margin: {
+    top: rem(15);
+    bottom: rem(15);
+  }
+
+  & > input {
+    display: inline-block;
+    height: rem(44 * 2);
+    width: 100%;
+    padding: 0 rem(16);
+
+    line-height: rem(32 * 2);
+    font-size: 1.2em;
+    color: #666;
+
+    border-radius: rem(6);
+    border: rem(1) solid #ccc;
+  }
+
+  & > input:focus {
+    outline: none;
+  }
+}
+
+.btn--submit {
+  display: inline-block;
+  width: 100%;
+  padding: rem(24) rem(32);
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.4em;
+  background-color: $login-btn-color;
+}
+
+.login__footer {
+  margin-top: rem(44);
+  text-align: center;
+}
+
+// 其他登录方式
+.login__other,
+.login__retrieve-password {
+  color: #9b9b9b;
+}
+.login__other {
+  margin-right: 1em;
+}
+.login__retrieve-password {
+  margin-left: 1em;
+}
+
+
+// 使用豆瓣APP
+.use-douban {
+  margin-top: rem(80);
+}

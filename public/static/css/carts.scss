@@ -1,0 +1,89 @@
+@import "mixins";
+
+.carts {
+  position: relative;
+  width: 100%;
+  margin-bottom: rem(100);
+}
+
+.cart-shop-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: rem(12) rem(10);
+
+  .shop-header {
+    margin: rem(10) 0;
+
+    & > span:first-child {
+      font-size: 120%;
+    }
+  }
+  .shop-name {
+    margin-left: 1em;
+    font-size: 100%;
+    color: #9b9b9b;
+  }
+}
+
+.go-pay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+
+  display: flex;
+  height: rem(90);
+  padding: 0 rem(20);
+
+  color: #fff;
+  font-size: 120%;
+  font-weight: 500;
+  line-height: rem(90);
+  background-color: #ff0000;
+
+
+  .left {
+    flex: 3;
+    border-right: 2px solid #fff;
+
+    &  span {
+      display: inline-block;
+      margin-right: 1em;
+      height: 100%;
+    }
+  }
+
+  .right {
+    flex: 1;
+    padding-left: 1em;
+    text-align: center;
+  }
+
+  .select-all {
+    display: inline-block;
+    height: 100%;
+
+    line-height: 100%;
+    vertical-align: middle;
+
+    i {
+      display: inline-block;
+
+      font-size: 1.3em;
+      margin-right: rem(10);
+      margin-top: rem(24);
+
+      color: #fff;
+    }
+  }
+
+  .total-price {
+    font-size: 120%;
+    color: #333;
+  }
+
+}
+
+
+

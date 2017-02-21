@@ -1,0 +1,63 @@
+[data-dpr='1'] .shop-wrapper {
+  font-size: 24px;
+}
+
+[data-dpr='2'] .shop-wrapper {
+  font-size: 24px;
+}
+
+[data-dpr='3'] .shop-wrapper {
+  font-size: 28px;
+}
+
+.shop-wrapper {
+  margin-bottom: 0.4rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+.shop-wrapper a {
+  color: #4a4a4a;
+  font-size: 100%;
+}
+.shop-wrapper a img {
+  vertical-align: middle;
+}
+.shop-wrapper .shop-header {
+  margin-left: 0.13333rem;
+  margin-right: 0.13333rem;
+  margin-top: 0.33333rem;
+  margin-bottom: 0.4rem;
+}
+.shop-wrapper .shop-header .shop-thumbnail {
+  margin-left: 0.06667rem;
+  margin-right: 0.06667rem;
+  width: 0.53333rem;
+  height: 0.53333rem;
+}
+.shop-wrapper .shop-header .shop-intro {
+  font-size: 80%;
+  color: #9b9b9b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shop-lists {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+<<<<<<< HEAD
+.shop-lists > .shop-slider {
+  position: relative;
+  left: 0;
+  height: auto;
+  overflow: hidden;
+  transition: left 1s;
+}
+=======
+>>>>>>> fixbug-0.0.2
+.shop-lists .slider-item {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=store.css.map */

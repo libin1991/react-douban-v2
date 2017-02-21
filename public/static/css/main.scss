@@ -1,0 +1,25 @@
+@import "mixins";
+
+.site-main {
+  height: auto;
+  width: 100%;
+
+  background-color: #f8f8fe;
+
+  .slider-item {
+    min-height: rem(224);
+  }
+
+  .main-products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .product-item {
+      flex: 1 1 40%;
+    }
+  }
+
+  .shops-wapper{
+    width: 100%;
+  }
+}

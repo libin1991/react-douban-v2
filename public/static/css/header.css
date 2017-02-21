@@ -1,0 +1,85 @@
+.site-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.site-header .search-bar {
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  background-color: #68cb78;
+}
+.site-header .search-bar .site-logo {
+  margin-left: 0.37333rem;
+  font-size: 0.6rem;
+  color: #ffffff;
+}
+.search-wrapper {
+  float: right;
+  margin-right: 0.37333rem;
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+}
+.search-wrapper .search-icon {
+  display: inline-block;
+  width: 0.53333rem;
+  height: 0.8rem;
+}
+.search-wrapper .search-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  height: 1.33333rem;
+  text-align: center;
+}
+.search-wrapper .search-form input[type="text"] {
+  width: 7.6rem;
+  height: 0.74667rem;
+  border: 0.01333rem solid #ffffff;
+  border-radius: 0.26667rem;
+}
+.search-wrapper .search-form input:focus {
+  outline: none;
+}
+.search-wrapper .opacity-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 2.50667rem;
+  margin-bottom: 1.33333rem;
+  background: rgba(100, 100, 100, 0.3);
+}
+.site-header .nav-bar {
+  display: flex;
+  width: 100%;
+  height: 1.16rem;
+  font-size: 30px;
+  border-bottom: 2px solid #68cb78;
+}
+.site-header .nav-bar .nav-item {
+  flex: 1;
+  display: inline-block;
+  width: 1.73333rem;
+  height: 100%;
+  padding-left: 0.37333rem;
+  padding-right: 0.37333rem;
+  text-align: center;
+  color: #999;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 1.13333rem;
+}
+.site-header .nav-bar .nav-item.active {
+  color: #68cb78;
+}
+[data-dpr='1'] .nav-bar {
+  font-size: 15px;
+}
+[data-dpr='3'] .nav-bar {
+  font-size: 45px;
+}
+
+/*# sourceMappingURL=header.css.map */
