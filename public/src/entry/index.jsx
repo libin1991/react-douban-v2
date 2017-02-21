@@ -3,6 +3,23 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
+// 加载样式表
+import '../../static/css/site.css'
+import '../../static/css/header.scss'
+import '../../static/css/main.scss'
+import '../../static/css/store.scss'
+import '../../static/css/productview.scss'
+import '../../static/css/category.scss'
+import '../../static/css/carts.scss'
+import '../../static/css/singleproduct.scss'
+import '../../static/css/item.scss'
+import '../../static/css/item-details.scss'
+import '../../static/css/itemcomment.scss'
+import '../../static/css/people.scss'
+import '../../static/css/login.scss'
+import '../../static/css/register.scss'
+
+// 加载组件
 import Main from '../component/Main.jsx'
 import Category from '../component/Category.jsx'
 import Carts from '../component/Carts.jsx'

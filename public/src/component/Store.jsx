@@ -8,7 +8,6 @@ import React, {Component} from 'react'
 import ProductView from './ProductView.jsx'
 import Slider from './slider/Slider.jsx'
 
-// import '../../static/css/store.scss'
 
 
 export default class Store extends Component {

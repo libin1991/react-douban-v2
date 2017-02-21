@@ -1,5 +1,7 @@
 var webpack = require('webpack');
-
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+var commonsPlugin =
+  new webpack.optimize.CommonsChunkPlugin('common.js'); // 引入插件
 module.exports = {
   entry: './public/src/entry/index.jsx',
   output: {
@@ -31,6 +33,12 @@ module.exports = {
       }
     ]
   },
-}
-
-// webpackConfig.babel.plugins.push(['import', { libraryName: 'antd-mobile', style: 'css' }]);
+  plugin: [
+    new uglifyJsPlugin({
+      compress: {
+        warnings: true
+      }
+    }),
+    commonsPlugin
+  ]
+};

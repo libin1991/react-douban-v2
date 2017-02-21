@@ -1,8 +1,5 @@
 import React, {Component} from 'react'
 
-// 引入样式文件
-// import '../../static/css/login.scss'
-
 export default class Login extends Component {
   constructor(props) {
     super(props);

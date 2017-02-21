@@ -6,7 +6,6 @@
 import React from 'react'
 import ReactDOM, {findDOMNode} from 'react-dom'
 
-// import '../../static/css/singleproduct.css'
 
 export default class SingleProduct extends React.Component {
   constructor(props) {

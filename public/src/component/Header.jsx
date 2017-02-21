@@ -2,8 +2,6 @@
 import React from 'react'
 import { Link, IndexLink } from 'react-router'
 
-// import '../../static/css/header.scss'
-
 export default class Header extends React.Component {
   constructor(props) {
     super(props);

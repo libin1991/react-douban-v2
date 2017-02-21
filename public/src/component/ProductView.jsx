@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router'
 
-// import '../../static/css/productview.css'
-
 export default class ProductView extends Component {
   
   constructor(props) {

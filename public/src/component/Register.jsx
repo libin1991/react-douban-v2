@@ -1,8 +1,5 @@
 import React, {Component} from 'react'
 
-// import '../../static/css/register.css'
-
-
 export default class Register extends Component {
   constructor(props) {
     super(props);

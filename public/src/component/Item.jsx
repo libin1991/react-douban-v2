@@ -7,7 +7,6 @@ import  React, {Component} from 'react'
 import {Link, IndexLink} from 'react-router'
 import 'isomorphic-fetch'
 
-// import '../../static/css/item.scss'
 import Slider from './carousel/Slider.jsx'
 import ItemComment from './ItemComment.jsx'
 
