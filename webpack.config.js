@@ -36,7 +36,7 @@ module.exports = {
   plugin: [
     new uglifyJsPlugin({
       compress: {
-        warnings: true
+        warnings: false
       }
     }),
     commonsPlugin

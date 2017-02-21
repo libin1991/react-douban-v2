@@ -3,6 +3,33 @@ import React, {Component} from 'react'
 export default class Login extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      userName: '',
+      pass: ''
+    };
+    this.handleUserNameInput = this.handleUserNameInput.bind(this);
+    this.handlePassInput = this.handlePassInput.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  
+  // 用户输入用户名
+  handleUserNameInput(e) {
+    this.setState({
+      userName: e.target.value
+    })
+  }
+  
+  // 输入密码
+  handlePassInput(e) {
+    this.setState({
+      pass: e.target.value
+    })
+  }
+  
+  // 点击登录
+  handleSubmit(e) {
+    e.preventDefault();
+    console.log('login...');
   }
   
   render() {
@@ -18,12 +45,22 @@ export default class Login extends Component {
           <h1>登录豆瓣</h1>
         </header>
         <main className="login__main">
-          <form action="#" method="POST">
+          <form action="#" method="POST" onSubmit={this.handleSubmit}>
             <label className="login__item">
-              <input type="text" name="username" value={''} placeholder="邮箱/手机号/用户名"/>
+              <input
+                type="text"
+                name="username"
+                value={this.state.userName}
+                onChange={this.handleUserNameInput}
+                placeholder="邮箱/手机号/用户名"/>
             </label>
             <label className="login__item">
-              <input type="password" name="password" placeholder="密码"/>
+              <input
+                type="password"
+                name="password"
+                value={this.state.pass}
+                onChange={this.handlePassInput}
+                placeholder="密码"/>
             </label>
             <button className="btn btn--submit">
               登录
