@@ -7,7 +7,7 @@ export default class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      userName: '',
+      username: '',
       pass: '',
       validate: ''
     };
@@ -20,7 +20,7 @@ export default class Login extends Component {
   // 用户输入用户名
   handleUserNameInput(e) {
     this.setState({
-      userName: e.target.value
+      username: e.target.value
     })
   }
   
@@ -41,9 +41,10 @@ export default class Login extends Component {
   // 点击登录
   handleSubmit(e) {
     e.preventDefault();
-    let username = this.username.value.trim();
-    let password = this.password.value.trim();
-    let validationCode = this.validationCode.value.trim();
+    
+    let username = this.state.username;
+    let password = this.state.pass;
+    let validationCode = this.state.validate;
     
     console.log('login...');
     console.log('username: ' + username);
@@ -59,12 +60,12 @@ export default class Login extends Component {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        username,
+        username: encodeURIComponent(username),
         password: encodeURIComponent(password),
         validate: validationCode
       })
     };
-    fetch('https:localhost:3000/login', post)
+    fetch('/login', post)
       .then(res => {
         // 以下处理登陆失败,显示弹出框
         if(res.status >= 400) {
@@ -96,7 +97,7 @@ export default class Login extends Component {
                 type="text"
                 name="username"
                 ref={input => this.username = input}
-                value={this.state.userName}
+                value={this.state.username}
                 onChange={this.handleUserNameInput}
                 placeholder="邮箱/手机号/用户名"/>
             </label>

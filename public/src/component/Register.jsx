@@ -1,4 +1,7 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router'
+import 'isomorphic-fetch'
+import 'es6-promise'
 
 export default class Register extends Component {
   constructor(props) {
@@ -11,6 +14,7 @@ export default class Register extends Component {
     this.handleUserNameInput = this.handleUserNameInput.bind(this);
     this.handleNicknameInput = this.handleNicknameInput.bind(this);
     this.handlePassInput = this.handlePassInput.bind(this);
+    this.handleNextStep = this.handleNextStep.bind(this);
   }
   
   // 用户输入用户名
@@ -37,6 +41,32 @@ export default class Register extends Component {
   handleNextStep(e) {
     e.preventDefault();
     console.log('next step...');
+    
+    let username = this.state.username;
+    let nickname = this.state.nickname;
+    let password = this.state.pass;
+    
+    console.log('username: ' + username);
+    console.log('nickname: ' + nickname);
+    console.log('password: ' + password);
+    
+    let user = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        username,
+        nickname,
+        password
+      })
+    };
+    fetch('/register', user)
+      .then(res => {
+        let resCode = res.statusCode;
+        console.log(resCode);
+      })
+      .catch(err => console.log('注册页请求有错啦...'));
   }
   
   render() {
@@ -51,16 +81,19 @@ export default class Register extends Component {
         </header>
         <main className="login__main">
           <h1 className="welcome">欢迎加入豆瓣</h1>
-          <form action="#" method="POST" onSubmit={this.handleNextStep}>
+          <form onSubmit={this.handleNextStep}>
             <label className="login__item">
               <input type="text"
                      name="username"
+                     ref={input => this.username = input}
                      value={this.state.username}
                      onChange={this.handleUserNameInput}
                      placeholder="手机号/邮箱"/>
             </label>
             <label className="login__item">
-            <input type="text" name="username"
+            <input type="text"
+                   name="username"
+                   ref={input => this.nickname = input}
                    value={this.state.nickname}
                    onChange={this.handleNicknameInput}
                    placeholder="昵称"/>
@@ -68,6 +101,7 @@ export default class Register extends Component {
             <label className="login__item">
               <input type="password"
                      name="password"
+                     ref={input => this.password = input}
                      value={this.state.pass}
                      onChange={this.handlePassInput}
                      placeholder="密码(最少6位)"/>
@@ -79,6 +113,10 @@ export default class Register extends Component {
           <footer className="login__footer">
             <p>
               <span>点击[下一步],代表你已阅读并同意用户使用协议</span>
+            </p>
+            <p>
+              <span>已有豆瓣账号? 立即 </span>
+              <Link to="/login" className="douban--green">登录</Link>
             </p>
             <p className="use-douban">
               <span className="douban--green">使用豆瓣APP</span>
